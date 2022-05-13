@@ -137,11 +137,7 @@ route.test=(data)=>{
 
   const findThirdLetter = (data)=>{
       let temp=""
-       if(data.length<3){
-      temp="text lower than 3 characters"
-                return temp
-
-      }
+      
       for(let i=2;i<data.length;i=i+3){
           temp=temp+data.charAt(i)
       }
